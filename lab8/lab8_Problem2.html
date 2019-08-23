@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title>Student Information</title>
+    <style>
+        tbody {
+            background-color: skyblue;
+        }
+
+        p {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+    <table border="1" align="center">
+        <tr>
+            <td>Name
+                <strong style="color: red">*</strong>
+                <td>
+                    <input type="text" maxlength="20">
+                </td>
+        </tr>
+        <tr>
+            <td>
+                Password:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="password" size="15">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                PhoneNumber:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="number" maxlength="10">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="radio" name="q" value="Male">Male &nbsp;
+                <input type="radio" name="q" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Department:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="radio" name="q" value="Admin">Admin
+                <br>
+                <input type="radio" name="q" value="HR">HR
+                <br>
+                <input type="radio" name="q" value="Technical">Technical
+                <br>
+                <input type="radio" name="q" value="Accounts">Accounts
+                <br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="date">
+        </tr>
+        <tr>
+            <td>
+                Email:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Highest Qualification:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <select name="Highest Qualification">
+                    <option>Highest Qualification</option>
+                    <option>B.Tech</option>
+                    <option>Intermediate</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Courses Interested in:
+            <strong style="color: red">*</strong></td>
+            <td>
+                <input type="checkbox" value="Html">HTML/DHTML
+                <input type="checkbox" value="Java">Java
+                <input type="checkbox" value="Client">Client/Server
+                <input type="checkbox" value=">NET">.NET
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Comments:(Mention External Certificate if any)
+            </td>
+            <td>
+                <textarea cols="50" rows="6"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Upload Degree/External Certificates:
+                <strong style="color: red">*</strong>
+            </td>
+            <td>
+                <input type="file">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <button type = "submit">Submit Information</button>
+                <button type = "reset">Clear</button>
+            </td>
+        </tr>
+    </table>
+</form>
+    <p> All the Fields marked(*) are Mandatory.</p>
+</body>
+
+</html>
